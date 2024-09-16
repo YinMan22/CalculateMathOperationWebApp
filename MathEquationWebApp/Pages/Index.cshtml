@@ -1,0 +1,71 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<head>
+    <style>
+        .ul-list{
+            list-style-type: circle;
+        }
+
+        .ul-list li{
+            margin: .5em 0;
+        }
+
+        .hr-line
+        {
+            display: block;
+            margin: 2em 0;
+        }
+    </style>
+</head>
+
+<div>
+    <h2 class="text-center p-3">Calculate Math Operation</h2>
+    <div>
+        <p><b>Notes:</b></p>
+        <ul class="ul-list">
+            <li>Supports solving math operation with Addition(+), Subtraction(-), Multiplication(*) and Division(/).</li>
+            <li>* and / have higher precedence over + and -. Use parentheses () to override precedence if needed.</li>
+        </ul>
+    </div>
+    <hr class="hr-line"/>
+    <div>
+        <p>Please input the math operation in below textbox:</p>
+    </div>
+    <div>
+        <form method="post">
+            <div class="">
+                <input type="text" asp-for="Operation" placeholder="Eg. 2 + 1" class="form-control" />
+                <span asp-validation-for="Operation" class="text-danger"></span>
+                @if (Model.validationMessage != null)
+                {
+                    <span class="text-danger">@Model.validationMessage</span>
+                }
+            </div>
+            <div class="p-2 text-center m-lg-4">
+                <input type="submit" value="Solve" class="btn btn-primary m-2" />
+                <input type="reset" value="Reset" class="btn btn-secondary m-2" />
+            </div>
+        </form>
+    </div>
+
+    @if (Model.result != null)
+    {
+        <div>
+            <p><b>Result:</b></p>
+            <p>@Model.result</p>
+        </div>
+    }
+
+    @if (Model.errorMessage != null)
+    {
+        <div class="alert alert-danger alert-dismissible" role="alert">
+            <b>Unexpected Exception:</b> @Model.errorMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            <div>Kindly contact the <a href="mailto:yinmanmuk@gmail.com">system administrator</a> for assistance.</div>
+        </div>
+    }
+</div>
