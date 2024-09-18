@@ -1,4 +1,5 @@
 using MathEquationWebApp.Model;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -7,6 +8,12 @@ var configuration = builder.Configuration;
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient();
 builder.Services.Configure<CalculateEquationApi>(configuration.GetSection("ExternalApiUrl:CalculateEquationApi"));
+
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
+
+builder.Logging.AddSerilog();
 
 var app = builder.Build();
 

@@ -1,0 +1,191 @@
+2024-09-18 18:28:37.582 +08:00 [INF] User profile is available. Using 'C:\Users\suibi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 18:42:47.688 +08:00 [INF] User profile is available. Using 'C:\Users\suibi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 18:42:47.972 +08:00 [INF] Now listening on: https://localhost:7099
+2024-09-18 18:42:47.973 +08:00 [INF] Now listening on: http://localhost:5127
+2024-09-18 18:42:48.008 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 18:42:48.010 +08:00 [INF] Hosting environment: Development
+2024-09-18 18:42:48.012 +08:00 [INF] Content root path: C:\Users\suibi\source\repos\MathEquationWebApp\MathEquationWebApp
+2024-09-18 18:42:48.963 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/ - null null
+2024-09-18 18:42:49.151 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:42:49.209 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:42:49.224 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-09-18 18:42:49.226 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:42:49.391 +08:00 [INF] Executed page /Index in 175.1722ms
+2024-09-18 18:42:49.393 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:42:49.400 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/ - 200 null text/html; charset=utf-8 443.5079ms
+2024-09-18 18:42:49.434 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-09-18 18:42:49.434 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/lib/jquery/dist/jquery.min.js - null null
+2024-09-18 18:42:49.435 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-09-18 18:42:49.435 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-09-18 18:42:49.435 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-09-18 18:42:49.434 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:42:49.434 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/MathEquationWebApp.styles.css?v=NqDHeYfJ28F-TBgLDdqNgq5TTDLFKBW0aNrB6Pfh66A - null null
+2024-09-18 18:42:49.455 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-09-18 18:42:49.455 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-09-18 18:42:49.455 +08:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-09-18 18:42:49.468 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 33.9194ms
+2024-09-18 18:42:49.468 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 32.9406ms
+2024-09-18 18:42:49.455 +08:00 [INF] The file /css/site.css was not modified
+2024-09-18 18:42:49.456 +08:00 [INF] The file /js/site.js was not modified
+2024-09-18 18:42:49.460 +08:00 [INF] The file /MathEquationWebApp.styles.css was not modified
+2024-09-18 18:42:49.469 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/lib/jquery/dist/jquery.min.js - 304 null text/javascript 34.4856ms
+2024-09-18 18:42:49.469 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 34.8567ms
+2024-09-18 18:42:49.475 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 40.7343ms
+2024-09-18 18:42:49.476 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 40.6479ms
+2024-09-18 18:42:49.476 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/MathEquationWebApp.styles.css?v=NqDHeYfJ28F-TBgLDdqNgq5TTDLFKBW0aNrB6Pfh66A - 304 null text/css 42.1184ms
+2024-09-18 18:42:49.576 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:42:49.644 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.7907ms
+2024-09-18 18:42:56.638 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7099/ - application/x-www-form-urlencoded 198
+2024-09-18 18:42:56.643 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:42:56.644 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:42:56.662 +08:00 [INF] Executing handler method MathEquationWebApp.Pages.IndexModel.OnPost - ModelState is "Valid"
+2024-09-18 18:42:56.671 +08:00 [INF] Start Call to CalculateEquation API | Request: 1/0
+2024-09-18 18:42:56.844 +08:00 [INF] End Call to CalculateEquation API | Response : BadRequest Invalid mathematical operation.
+2024-09-18 18:42:56.845 +08:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:42:56.852 +08:00 [INF] Executed page /Index in 207.3051ms
+2024-09-18 18:42:56.853 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:42:56.854 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7099/ - 200 null text/html; charset=utf-8 216.0231ms
+2024-09-18 18:42:56.884 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:42:56.885 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:42:56.889 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 3.4628ms
+2024-09-18 18:42:56.895 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.4191ms
+2024-09-18 18:44:38.725 +08:00 [INF] User profile is available. Using 'C:\Users\suibi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 18:44:39.003 +08:00 [INF] Now listening on: https://localhost:7099
+2024-09-18 18:44:39.005 +08:00 [INF] Now listening on: http://localhost:5127
+2024-09-18 18:44:39.034 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 18:44:39.036 +08:00 [INF] Hosting environment: Development
+2024-09-18 18:44:39.039 +08:00 [INF] Content root path: C:\Users\suibi\source\repos\MathEquationWebApp\MathEquationWebApp
+2024-09-18 18:44:40.585 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/ - null null
+2024-09-18 18:44:40.696 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:44:40.737 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:44:40.748 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-09-18 18:44:40.749 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:44:40.859 +08:00 [INF] Executed page /Index in 118.3421ms
+2024-09-18 18:44:40.861 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:44:40.866 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/ - 200 null text/html; charset=utf-8 285.1897ms
+2024-09-18 18:44:40.891 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:44:40.902 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 10.359ms
+2024-09-18 18:44:41.027 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:44:41.059 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.651ms
+2024-09-18 18:44:42.630 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7099/ - application/x-www-form-urlencoded 198
+2024-09-18 18:44:42.636 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:44:42.637 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:44:42.650 +08:00 [INF] Executing handler method MathEquationWebApp.Pages.IndexModel.OnPost - ModelState is "Valid"
+2024-09-18 18:44:42.657 +08:00 [INF] Start Call to CalculateEquation API | Request: 1/0
+2024-09-18 18:44:42.725 +08:00 [INF] End Call to CalculateEquation API | Response : Int32 Invalid mathematical operation.
+2024-09-18 18:44:42.726 +08:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:44:42.732 +08:00 [INF] Executed page /Index in 94.8515ms
+2024-09-18 18:44:42.733 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:44:42.734 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7099/ - 200 null text/html; charset=utf-8 104.1566ms
+2024-09-18 18:44:42.760 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:44:42.764 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:44:42.766 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 2.7241ms
+2024-09-18 18:44:42.776 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.5206ms
+2024-09-18 18:46:09.025 +08:00 [INF] User profile is available. Using 'C:\Users\suibi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 18:46:09.389 +08:00 [INF] Now listening on: https://localhost:7099
+2024-09-18 18:46:09.391 +08:00 [INF] Now listening on: http://localhost:5127
+2024-09-18 18:46:09.428 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 18:46:09.430 +08:00 [INF] Hosting environment: Development
+2024-09-18 18:46:09.432 +08:00 [INF] Content root path: C:\Users\suibi\source\repos\MathEquationWebApp\MathEquationWebApp
+2024-09-18 18:46:10.305 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/ - null null
+2024-09-18 18:46:10.400 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:46:10.439 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:46:10.452 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-09-18 18:46:10.454 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:46:10.554 +08:00 [INF] Executed page /Index in 109.8241ms
+2024-09-18 18:46:10.558 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:46:10.565 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/ - 200 null text/html; charset=utf-8 264.1419ms
+2024-09-18 18:46:10.591 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:46:10.597 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.2995ms
+2024-09-18 18:46:10.699 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:46:10.733 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.4566ms
+2024-09-18 18:46:12.344 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7099/ - application/x-www-form-urlencoded 198
+2024-09-18 18:46:12.352 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:46:12.354 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:46:12.375 +08:00 [INF] Executing handler method MathEquationWebApp.Pages.IndexModel.OnPost - ModelState is "Valid"
+2024-09-18 18:46:12.383 +08:00 [INF] Start Call to CalculateEquation API | Request: 1/0
+2024-09-18 18:46:12.434 +08:00 [INF] End Call to CalculateEquation API | Response : 400 BadRequest - Invalid mathematical operation.
+2024-09-18 18:46:12.435 +08:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:46:12.441 +08:00 [INF] Executed page /Index in 85.9567ms
+2024-09-18 18:46:12.442 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:46:12.443 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7099/ - 200 null text/html; charset=utf-8 99.543ms
+2024-09-18 18:46:12.470 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:46:12.471 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:46:12.476 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.7618ms
+2024-09-18 18:46:12.481 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.9212ms
+2024-09-18 18:46:31.318 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7099/ - application/x-www-form-urlencoded 198
+2024-09-18 18:46:31.321 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:46:31.322 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:46:31.323 +08:00 [INF] Executing handler method MathEquationWebApp.Pages.IndexModel.OnPost - ModelState is "Valid"
+2024-09-18 18:46:31.325 +08:00 [INF] Start Call to CalculateEquation API | Request: 1/0
+2024-09-18 18:46:35.446 +08:00 [ERR] Unexpected Exception: No connection could be made because the target machine actively refused it. (localhost:5006)
+2024-09-18 18:46:35.447 +08:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:46:35.450 +08:00 [INF] Executed page /Index in 4127.3716ms
+2024-09-18 18:46:35.451 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:46:35.452 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7099/ - 200 null text/html; charset=utf-8 4133.5458ms
+2024-09-18 18:46:35.474 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:46:35.475 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:46:35.480 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.5197ms
+2024-09-18 18:46:35.489 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.0393ms
+2024-09-18 18:47:08.494 +08:00 [INF] User profile is available. Using 'C:\Users\suibi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 18:47:08.747 +08:00 [INF] Now listening on: https://localhost:7099
+2024-09-18 18:47:08.749 +08:00 [INF] Now listening on: http://localhost:5127
+2024-09-18 18:47:08.776 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 18:47:08.778 +08:00 [INF] Hosting environment: Development
+2024-09-18 18:47:08.779 +08:00 [INF] Content root path: C:\Users\suibi\source\repos\MathEquationWebApp\MathEquationWebApp
+2024-09-18 18:47:09.700 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/ - null null
+2024-09-18 18:47:09.804 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:47:09.850 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:47:09.865 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-09-18 18:47:09.867 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:47:09.954 +08:00 [INF] Executed page /Index in 98.687ms
+2024-09-18 18:47:09.956 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:47:09.962 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/ - 200 null text/html; charset=utf-8 267.238ms
+2024-09-18 18:47:09.983 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:47:09.991 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.7979ms
+2024-09-18 18:47:10.103 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:47:10.146 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.5242ms
+2024-09-18 18:47:11.900 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/ - null null
+2024-09-18 18:47:11.905 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:47:11.906 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:47:11.907 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-09-18 18:47:11.907 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:47:11.911 +08:00 [INF] Executed page /Index in 4.9628ms
+2024-09-18 18:47:11.912 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:47:11.913 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/ - 200 null text/html; charset=utf-8 13.5222ms
+2024-09-18 18:47:11.935 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:47:11.936 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:47:11.943 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.5235ms
+2024-09-18 18:47:11.952 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.1282ms
+2024-09-18 18:47:50.700 +08:00 [INF] User profile is available. Using 'C:\Users\suibi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 18:47:50.970 +08:00 [INF] Now listening on: https://localhost:7099
+2024-09-18 18:47:50.972 +08:00 [INF] Now listening on: http://localhost:5127
+2024-09-18 18:47:51.015 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 18:47:51.018 +08:00 [INF] Hosting environment: Development
+2024-09-18 18:47:51.020 +08:00 [INF] Content root path: C:\Users\suibi\source\repos\MathEquationWebApp\MathEquationWebApp
+2024-09-18 18:47:52.097 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/ - null null
+2024-09-18 18:47:52.203 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:47:52.260 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:47:52.273 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-09-18 18:47:52.275 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:47:52.368 +08:00 [INF] Executed page /Index in 103.493ms
+2024-09-18 18:47:52.370 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:47:52.376 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/ - 200 null text/html; charset=utf-8 282.8291ms
+2024-09-18 18:47:52.399 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:47:52.408 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.653ms
+2024-09-18 18:47:52.511 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:47:52.541 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.5707ms
+2024-09-18 18:48:03.477 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7099/ - application/x-www-form-urlencoded 198
+2024-09-18 18:48:03.484 +08:00 [INF] Executing endpoint '/Index'
+2024-09-18 18:48:03.485 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-09-18 18:48:03.503 +08:00 [INF] Executing handler method MathEquationWebApp.Pages.IndexModel.OnPost - ModelState is "Valid"
+2024-09-18 18:48:03.511 +08:00 [INF] Start Call to CalculateEquation API | Request: 1/0
+2024-09-18 18:48:07.668 +08:00 [ERR] Unexpected Exception: No connection could be made because the target machine actively refused it. (localhost:5006)
+2024-09-18 18:48:07.670 +08:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-18 18:48:07.681 +08:00 [INF] Executed page /Index in 4194.9847ms
+2024-09-18 18:48:07.683 +08:00 [INF] Executed endpoint '/Index'
+2024-09-18 18:48:07.685 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7099/ - 200 null text/html; charset=utf-8 4207.9825ms
+2024-09-18 18:48:07.707 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2024-09-18 18:48:07.708 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 18:48:07.714 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.6786ms
+2024-09-18 18:48:07.724 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.5918ms

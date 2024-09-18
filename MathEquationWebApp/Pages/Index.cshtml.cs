@@ -45,7 +45,9 @@ namespace MathEquationWebApp.Pages
                     client.DefaultRequestHeaders.Add("x-api-key", apiKey);
 
                     var body = new StringContent(JsonSerializer.Serialize(operation), Encoding.UTF8, "application/json");
+                    _logger.LogInformation($"Start Call to CalculateEquation API | Request: {operation}");
                     var response = await client.PostAsync(apiURL, body);
+                    _logger.LogInformation($"End Call to CalculateEquation API | Response : {(int)response.StatusCode} {response.StatusCode} - {response.Content.ReadAsStringAsync().Result}");
 
                     // API Reponse handling
                     if (response.IsSuccessStatusCode)
@@ -66,6 +68,7 @@ namespace MathEquationWebApp.Pages
             }
             catch (Exception ex)
             {
+                _logger.LogError($"Unexpected Exception: {ex.Message}");
                 errorMessage = $"{ex.Message}";
                 return Page();
             }
