@@ -14,7 +14,6 @@ namespace MathEquationWebApp.Pages
         [Required(ErrorMessage = "Math operation is required.")]
         public string Operation { get; set; }
 
-        private readonly IConfiguration _config;
         private readonly ILogger<IndexModel> _logger;
         private readonly IOptions<CalculateEquationApi> _calculateEquationApi;
 
@@ -22,9 +21,8 @@ namespace MathEquationWebApp.Pages
         public string? validationMessage = null;
         public string? errorMessage = null;
 
-        public IndexModel(IConfiguration config, ILogger<IndexModel> logger, IOptions<CalculateEquationApi> calculateEquationApi)
+        public IndexModel(ILogger<IndexModel> logger, IOptions<CalculateEquationApi> calculateEquationApi)
         {
-            _config = config;
             _logger = logger;
             _calculateEquationApi = calculateEquationApi;
         }
